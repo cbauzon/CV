@@ -1,0 +1,129 @@
+/* CUSTOM ELEMENTS */
+h1, h2 {
+    font-family: 'Fira Code', monospace;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+
+a {
+    color: #393E46;
+    text-decoration: none;
+}
+
+/* CUSTOM CLASSES */
+.dark-bg {
+    background-color: #393E46;
+    color: #F2E7D5;
+}
+
+.light-bg {
+    background-color: white;
+    color: #393E46;
+}
+
+/* TITLE STYLES */
+.title {
+    background-image: url("../images/shapes-black-background-amoled-5k-2560x1080-8176.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F2E7D5;
+
+}
+
+.title p {
+    font-size: 1.5rem;
+}
+
+.cj-photo {
+    right: 10%;
+    top: 55%;
+}
+
+.cover {
+    height: 450px;
+}
+
+.navbar-brand, .nav-link {
+    color: #F2E7D5;
+    font-family: 'Fira Code', monospace;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+
+/* ABOUT ME STYLES */
+.about-me p span {
+    color: red;
+    font-weight: 600;
+}
+
+.about-me .carousel, .carousel-img {
+    border-radius: 20px;
+    height: 949px;
+    width: 664px;
+    top: 5%;
+    left: 24%;
+}
+
+
+/* SKILLS STYLES */
+.skills-img {
+    height: 100px;
+    width: 100px;
+    margin: auto 10px;
+}
+
+.skills-img-lg {
+    height: 400px;
+    max-width: 900px;
+    margin: auto 10px;
+}
+
+.ipad {
+    height: 1100px;
+}
+
+.ipad-screen {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* PROJECTS STYLES */
+.projects h2 {
+    font-size: 1.5rem;
+}
+
+.card {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.link.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+
+/* FOOTER STYLES */
+.footer {
+    padding: 4% 0 2%;
+}
+
+.footer a {
+    color: #F2E7D5;
+}
+
+.footer a:hover {
+    color: #007bff;
+}
+
