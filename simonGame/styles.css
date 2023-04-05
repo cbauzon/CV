@@ -31,20 +31,24 @@ body {
   opacity: 0.8;
 }
 
-.red {
+.red, .red:hover {
   background-color: red;
+  border: 10px solid black;
 }
 
-.green {
+.green, .green:hover {
   background-color: green;
+  border: 10px solid black;
 }
 
-.blue {
+.blue, .blue:hover {
   background-color: blue;
+  border: 10px solid black;
 }
 
-.yellow {
+.yellow, .yellow:hover {
   background-color: yellow;
+    border: 10px solid black;
 }
 
 .pressed {
