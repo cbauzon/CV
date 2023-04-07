@@ -42,6 +42,7 @@ a {
 }
 
 .cj-photo {
+    position: absolute;
     right: 10%;
     top: 55%;
 }
@@ -49,6 +50,7 @@ a {
 .cover {
     height: 450px;
 }
+
 
 .navbar-brand, .nav-link {
     color: #F2E7D5;
@@ -75,6 +77,16 @@ a {
     left: 24%;
 }
 
+.ipad {
+    height: 1100px;
+}
+
+.ipad-screen {
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
 
 /* SKILLS STYLES */
 .skills-img {
@@ -89,14 +101,6 @@ a {
     margin: auto 10px;
 }
 
-.ipad {
-    height: 1100px;
-}
-
-.ipad-screen {
-    left: 50%;
-    transform: translateX(-50%);
-}
 
 /* PROJECTS STYLES */
 .projects h2 {
@@ -136,3 +140,60 @@ a {
     color: #007bff;
 }
 
+@media (max-width: 973px) {
+    .cj-photo {
+        left: 50%;
+        position: relative;
+        padding: 4% 0;
+        transform: translateX(-50%);
+    }
+
+    .cover {
+        height: auto;
+    }
+
+    #about-me {
+        text-align: center;
+    }
+
+    p.w-50 {
+        text-align: start;
+        width: 100% !important;
+    }
+
+    .skills-img {
+        height: 50px;
+        width: 50px;
+        margin: 2px;
+    }
+
+    .skills-img-lg {
+        height: 200px;
+        width: auto;
+    }
+
+    .ipad {
+        height: 450px;
+    }
+
+    .ipad-screen {
+        width: 90%;
+    }
+
+    .ipad-img {
+        width: 100%;
+    }
+
+    .about-me .carousel, .carousel-img {
+        border-radius: 10px;
+        height: 90% !important;
+        width: 70%;
+        top: 5%;
+        left: 24%;
+    }
+
+    .carousel-inner {
+        height: 100%;
+        width: 100%;
+    }
+}
