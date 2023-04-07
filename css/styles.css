@@ -152,13 +152,22 @@ a {
         height: auto;
     }
 
-    #about-me {
+    .about-me {
         text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .about-me p {
+        line-height: 1;
+        font-size: 0.8rem;
+        margin: 3% auto;
     }
 
     p.w-50 {
         text-align: start;
         width: 100% !important;
+
     }
 
     .skills-img {
