@@ -64,10 +64,6 @@ a {
 
 
 /* ABOUT ME STYLES */
-.about-me p span {
-    color: red;
-    font-weight: 600;
-}
 
 .about-me .carousel, .carousel-img {
     border-radius: 20px;
@@ -84,6 +80,10 @@ a {
 .ipad-screen {
     left: 50%;
     transform: translateX(-50%);
+}
+
+.about-me p {
+    margin: 1% auto;
 }
 
 
